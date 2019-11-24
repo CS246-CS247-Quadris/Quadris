@@ -87,15 +87,15 @@ TTT
 Blocks can be moved and rotated. When a block is rotated, it should be done such that the position of the lower left corner of the smallest rectangle containing the block is preserved. For a clockwise rotation, this means that the lower-right corner of the block should take the place of the lower-left corner of the original block. For a counterclockwise rotation, this means that the top-left corner of the block should take the place of the lower-left corner of the original block. A few examples follow (clockwise rotation):
 - **J-block**:
 ```
-J   - JJ
-JJJ - J
-    - J
+J   > JJ
+JJJ > J
+    > J
 ```
 - **S-block**:
 ```
- SS - S
-SS  - SS
-    -  S
+ SS > S
+SS  > SS
+    >  S
 ```
 
 The coordinate axes shown above should be understood as being fixed in space, and are there to show the position of the rotated block relative to that of the original.
